@@ -1,0 +1,271 @@
+.pie-de-pag {
+  font-size: 15px;
+  padding-top: 1%;
+  color: white;
+  text-align: center; }
+
+.links-pie-de-pagina {
+  text-decoration: none;
+  color: white;
+  text-align: left;
+  display: block;
+  font-weight: bold; }
+
+.boton-ir-inicio {
+  color: white;
+  text-decoration: none;
+  background-color: blue;
+  float: right; }
+
+.contact_form {
+  width: 460px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: black;
+  padding-left: 30px; }
+
+input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: blue;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px; }
+
+textarea {
+  background-color: white;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px; }
+
+label {
+  display: block;
+  float: center; }
+
+button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: white;
+  border-color: blue;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer; }
+
+button p {
+  color: #fff; }
+
+span {
+  color: white; }
+
+.aviso {
+  font-size: 13px;
+  color: white; }
+
+.titulo-formulario1 {
+  color: white;
+  text-align: center;
+  background-color: blue;
+  padding: 10px; }
+
+.titulo-formulario2 {
+  font-size: 39px;
+  text-align: left;
+  padding-bottom: 20px;
+  color: white; }
+
+.subtitulo-formulario {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: white; }
+
+.parrafos-formulario {
+  font-size: 14px;
+  color: white; }
+
+::-webkit-input-placeholder {
+  color: #a8a8a8; }
+
+::-webkit-textarea-placeholder {
+  color: #a8a8a8; }
+
+.formulario input:focus {
+  outline: 0;
+  border: 1px solid white; }
+
+.formulario textarea:focus {
+  outline: 0;
+  border: 1px solid white; }
+
+.titulo-contacto {
+  text-align: center;
+  background-color: blue; }
+
+* {
+  font-family: 'alliance', sans-serif;
+  padding: 0px;
+  margin: 0px;
+  background-color: black; }
+
+/* Index o pagina principal/home */
+header {
+  height: 110px;
+  width: 100%;
+  background-color: black; }
+
+nav {
+  width: 70%;
+  height: 100px;
+  background-color: black;
+  margin: auto;
+  text-align: center;
+  padding-top: 40px;
+  padding-right: 20px;
+  box-sizing: border-box; }
+  nav ul {
+    display: inline; }
+    nav ul li {
+      display: inline; }
+      nav ul li a {
+        padding-left: 10px;
+        color: #fff;
+        font-size: 15px;
+        text-decoration: none;
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding: 7px; }
+
+@keyframes transition {
+  from {
+    background-color: blue; }
+  to {
+    background-color: lightblue; } }
+
+nav ul li a:hover {
+  color: white;
+  background-color: blue;
+  animation-name: transition;
+  animation-duration: 2s; }
+
+.ancho {
+  width: 80%;
+  height: 90px;
+  background-color: black;
+  margin: auto; }
+
+.logo {
+  width: 125px;
+  height: 100px;
+  float: left; }
+
+.logo-position {
+  padding-top: 5px;
+  padding-left: 15px;
+  background-color: black; }
+
+.contenedor-texto {
+  background-color: blue; }
+
+.titulo-principal {
+  text-align: center;
+  font-size: 35px;
+  background-color: blue;
+  color: white; }
+
+.parrafo-principal {
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  background-color: blue; }
+
+.colorancho {
+  background-color: black; }
+
+.texto-relleno {
+  color: white;
+  text-align: center;
+  padding: 50px;
+  font-size: 25px; }
+
+.formatotexto {
+  background-color: blue;
+  color: white; }
+
+.imagen-tecnico {
+  padding-top: 20px;
+  padding-left: 30%;
+  width: 500px;
+  height: 400px; }
+
+.imagen-servers {
+  padding-left: 250px; }
+
+.imagen-trato {
+  margin: auto;
+  padding-left: 25%;
+  padding-bottom: 10px; }
+
+/* Servicios */
+.titulo-servicios {
+  color: white;
+  text-align: center;
+  padding: 30px;
+  background-color: blue; }
+
+.parrafo-servicios {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 50px; }
+
+.lista-servicios {
+  padding: 80px;
+  color: white;
+  text-decoration: none;
+  font-size: 50px; }
+
+/* Informacion */
+.titulo-info {
+  color: white;
+  text-align: center;
+  padding: 30px;
+  background-color: blue; }
+
+.parrafo-info {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding: 80px; }
+
+.imagen-info {
+  padding-left: 280px;
+  padding-bottom: 30px; }
+
+#galeria .col-lg-4 {
+  margin: 0 !important;
+  padding: 25px; }
+
+#galeria img {
+  width: 100%;
+  height: 250px; }
+
+#galeria img:hover {
+  border: 5px solid lightblue; }
