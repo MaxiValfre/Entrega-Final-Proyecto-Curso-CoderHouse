@@ -1,1 +1,1 @@
-Esta es la tercera preentrega del proyecto coderhouse
+Este fue mi primer proyecto Web en el cursado de Desarrollo web por la plataforma Coderhouse
